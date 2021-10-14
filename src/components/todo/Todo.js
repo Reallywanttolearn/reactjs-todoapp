@@ -13,15 +13,12 @@ const Todo = () => {
         console.log(getTodos)
     }
 
-    return ( <
-        div >
-        <
-        h3 > Todo List < /h3> <
-        TodoCreate onCreateTodo = { eventCreateTodo }
-        /> <
-        Todolist dataTodo = { getTodos }
-        /> <
-        /div>
+    return ( 
+        <div >
+        <h3 > Todo List < /h3> 
+        <TodoCreate onCreateTodo = { eventCreateTodo }/>
+        <Todolist dataTodo = { getTodos }/> 
+        </div>
     )
 }
 
