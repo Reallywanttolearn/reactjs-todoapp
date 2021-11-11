@@ -7,8 +7,8 @@ const Todo = () => {
     const [getTodos, setTodos] = useState([
     ])
 
-    const eventCreateTodo = (tidi) => {
-        setTodos(getTodos.concat(tidi))
+    const eventCreateTodo = (todo) => {
+        setTodos(getTodos.concat(todo))
         console.log(getTodos)
     }
 
